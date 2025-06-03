@@ -3,8 +3,8 @@
     ext.png
     bg.png
     qr.png
-# rute of images ../Yuuruii Tweaks SRC/icons/
-# move the icons .png for main folder
+rute of images ../Yuuruii Tweaks SRC/icons/
+move the icons .png for main folder
 
 # main instance
 
@@ -15,6 +15,8 @@ for compile in cmd use:
     cd {folder}
 
     pyinstaller --onefile --windowed --name "Yuuruii Tweaks" --icon icono.ico --add-data "icono.ico;." --add-data "Yuuruii Qr Generator.exe;." --add-data "Yuuruii Extension Manager.exe;." --add-data "Yuuruii DataBase Manager;." --add-data "Yuuruii Background Remover;." Yuuruii_Tweaks.py
+    
+    or only pyinstaller string if u work in vs code space
 
 for a correctly execute need a all inside icons: 
 
@@ -33,9 +35,6 @@ C:\
             ├── Yuuruii DataBase Manager.exe
             ├── Yuuruii Extension Manager.exe
             └── Yuuruii Qr Generator.exe
-
-
-# or only pyinstaller string if u work in vs code space
 
 # code dependencies:
 os
