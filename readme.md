@@ -42,3 +42,5 @@ sys
 subprocess
 tkinter
 pillow
+
+# Alredy to use 🎉🎉🎉🎉🎉🎉
